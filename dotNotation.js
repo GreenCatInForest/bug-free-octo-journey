@@ -37,3 +37,70 @@ let neededKey = 'level'
 console.log(player[neededKey])
 
 // fetch me 5 examples of built in methods
+
+///////////////////////////////////////////////
+// Math Object
+// Built-In Math object that has many different methods and properties
+
+const myFloatNumber = 15.5
+
+const PI = Math.PI
+
+const myIntNumber = Math.floor(myFloatNumber)
+const myOtherIntNumber = Math.ceil(myFloatNumber)
+console.log(myIntNumber)
+console.log(myOtherIntNumber)
+console.log(PI)
+
+
+// document.getElementById (The DOM, not covered yet)
+// const navBar = document.getElementById("mainNav")
+// console.log(navBar.textContent)
+
+///////////////////////////////////////////////
+// Array.splice
+// delete items from an array and return the deleted items
+console.log("splice example")
+//                0        1       2        3         4
+const colors = ["red", "green", "blue", "orange", "yellow"]
+const newColors = colors.splice(1,3)
+console.log(colors)
+console.log(newColors)
+
+///////////////////////////////////////////////
+// pop method
+// pop the last item off the list
+console.log("pop example")
+const colorsArr = ["red", "green", "blue", "orange", "yellow"] 
+console.log(colorsArr)
+
+colorsArr.pop()
+
+console.log(colorsArr)
+
+///////////////////////////////////////////////
+// Array.join()
+// join all the items in a list with a character we specify (" & ")
+// const colorsArr = ["red", "green", "blue", "orange", "yellow"] 
+console.log("join example")
+const sentence = colorsArr.join(' & ')
+console.log(sentence)
+
+
+///////////////////////////////////////////////
+// Array.shift()
+// shift the first item off the list
+// const colorsArr = ["red", "green", "blue", "orange", "yellow"] 
+console.log("shift example")
+console.log(colorsArr)
+colorsArr.shift()
+console.log(colorsArr)
+
+///////////////////////////////////////////////
+// Array.push()
+// push a new item to the list
+// const colorsArr = ["red", "green", "blue", "orange", "yellow"] 
+console.log("push example")
+console.log(colorsArr)
+colorsArr.push("purple")
+console.log(colorsArr)
