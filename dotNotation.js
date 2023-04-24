@@ -72,3 +72,16 @@ console.log(player.nameWithSpacesTe.trimEnd());
 
 //7. .length
 console.log(player.name.length);
+
+//8. A string can be converted to an array with the split() method
+let text = "a,b,c,d,e,f";
+const myArray = text.split(",");
+console.log(myArray[3]);
+
+//number methods
+
+//1. .toString()
+console.log(player.hearts.toString() + player.hearts.toString());
+
+//2. Number()
+console.log(Number(player.hearts));
